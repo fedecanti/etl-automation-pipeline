@@ -19,7 +19,7 @@ This pipeline automates the extraction, transformation, and loading of medium vo
 - **NumPy** - Numerical operations
 
 ## 🗂️ Project Structure
-
+```bash
 etl-automation-pipeline/
 ├── README.md
 ├── requirements.txt
@@ -60,7 +60,7 @@ etl-automation-pipeline/
 
 ### Prerequisites
 
-```bash
+
 # Install required libraries
 pip install -r requirements.txt
 Execution
