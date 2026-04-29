@@ -62,13 +62,14 @@ etl-automation-pipeline/
 
 
 # Install required libraries
+```bash
 pip install -r requirements.txt
 Execution
 Place input files in data/input/
 Open notebooks/inventory_etl.ipynb in Jupyter
 Run all cells
 Output will be generated in data/output/inventory.parquet
-
+```
 📊 Sample Data
 This repository includes sample data that represents the structure of the actual production data. 
 
