@@ -28,7 +28,7 @@ etl-automation-pipeline/
 └── data/
   ├── input/ # Sample input files (CSV/Excel)
   └── output/ # Generated parquet file
-
+```
 
 ## 🚀 How It Works
 
