@@ -19,7 +19,7 @@ This pipeline automates the extraction, transformation, and loading of medium vo
 - **NumPy** - Numerical operations
 
 ## 🗂️ Project Structure
-
+```bash
 etl-automation-pipeline/
 ├── README.md
 ├── requirements.txt
@@ -28,7 +28,7 @@ etl-automation-pipeline/
 └── data/
   ├── input/ # Sample input files (CSV/Excel)
   └── output/ # Generated parquet file
-
+```
 
 ## 🚀 How It Works
 
@@ -60,15 +60,16 @@ etl-automation-pipeline/
 
 ### Prerequisites
 
-```bash
+
 # Install required libraries
+```bash
 pip install -r requirements.txt
 Execution
 Place input files in data/input/
 Open notebooks/inventory_etl.ipynb in Jupyter
 Run all cells
 Output will be generated in data/output/inventory.parquet
-
+```
 📊 Sample Data
 This repository includes sample data that represents the structure of the actual production data. 
 
